@@ -1,0 +1,253 @@
+body{
+  margin: 0 ;
+  font-size: 18px;
+
+}
+#arriba{
+  width: 100%;
+  height: 205px;
+  clear: both;
+  position: fixed;
+  z-index: 10;
+}
+#idioma{
+  width: 15%;
+  height: 100px;
+  margin: 0 0 0 85%;
+}
+.ca{
+  width: 50%;
+  height: 40px;
+  float: left;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 1.3em;
+
+}
+#logo{
+  width: 8%;
+  margin: 10px 0 0 30px;
+  float: left;
+}
+#medio{
+  width: 100%;
+  height: 1000px;
+
+  position: absolute;
+}
+#texto{
+  background-color: rgba(255, 255, 255, 0.76);
+  height: 70px;
+  width: 20%;
+  margin: 0 40% 0 40%;
+  text-align: center;
+  padding: 30px 0 0 0;
+  font-size: 1.5em;
+}
+#textos{
+  width: 100%;
+  height: 240px;
+  position: absolute;
+  margin-top: 20%;
+  font
+}
+#texto1{
+  background-color: rgba(255, 255, 255, 0.76);
+  height: 70px;
+  width: 30%;
+  text-align: center;
+  padding: 30px 0 0 0;
+  margin: 10px 35% 0 35%;
+  font-size: 1.6em;
+}
+#fondo{
+  width: 100%;
+  height: 100%;
+}
+#blog{
+  background-color: white;
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  margin-top: -200px;
+}
+#secciones{
+  width: 80%;
+  height: 150px;
+  margin: 0 10% 0 10%;
+  position: relative;
+  z-index: 15;
+}
+.secc{
+   width:15%;
+   height: 30px;
+   float: left;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 8%;
+  font-size: 1.3em;
+
+}
+#nosotros{
+  width: 60%;
+  height: 2800px;
+  background-color: red;
+  margin: 10% 20% 0 20%;
+}
+h1{
+  text-align: center;
+}
+#madame{
+  height: 1000px;
+  padding: 20px 0 0 0;
+  clear: both;
+  background-color: green;
+  border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
+}
+#madame4{
+  width: 40%;
+  height: 40%;
+  margin: 5%;
+  float: left;
+}
+#madame5{
+  width: 40%;
+  height: 40%;
+  margin: 5%;
+}
+#madame1{
+  padding: 20px 0 0 0;
+  width: 31%;
+  height: 25%;
+  margin: 1%;
+  float: left;
+}
+#madame2{
+  padding: 20px 0 0 0;
+  width: 31%;
+  height: 25%;
+  margin: 1%;
+  float: left;
+}
+#madame3{
+  padding: 20px 0 0 0;
+  width: 31%;
+  height: 25%;
+  margin: 1%;
+}
+
+#nunoya{
+  clear: both;
+
+  height: 850px;
+  padding: 20px 0 0 0;
+}
+#nunoya5{
+  width: 40%;
+  height: 40%;
+  margin: 5%;
+  float: left;
+}
+#nunoya6{
+  width: 40%;
+  height: 40%;
+  margin: 5%;
+}
+#nunoya7{
+  padding: 20px 0 0 0;
+  width: 31%;
+  height: 25%;
+  margin: 1%;
+  float: left;
+}
+#nunoya3{
+padding: 20px 0 0 0;
+width: 31%;
+height: 25%;
+margin: 1%;
+float: left;
+}
+#nunoya10{
+padding: 20px 0 0 0;
+width: 31%;
+height: 25%;
+margin: 1%;
+}
+
+.grande{
+width: 40%;
+height: 40%;
+margin: 5%;
+float: left;
+}
+
+.pequeña{
+  padding: 20px 0 0 0;
+  width: 31%;
+  height: 25%;
+  margin: 1%;
+  float: left;
+}
+
+
+#abajo{
+width: 100%;
+height: 200px;
+background-color: black;
+position:absolute;
+clear: both;
+margin-top: 7000px;
+}
+#flecha{
+  width: 4%;
+  height: 50px;
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 5px;
+  margin: -1% 48% 0 48%;
+  style-type: none;
+
+}
+#redes{
+  width: 20%;
+  margin: 2% 40% 0 40%;
+}
+.img{
+  width: 23%;
+}
+.tiendas{
+width: 100%;
+height: 30px;
+display: none;
+list-style-type: none;
+padding: 10px 0 0 0;
+}
+#secciones .secc:hover > .tiendas{
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+}
