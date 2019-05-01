@@ -101,6 +101,22 @@
       background-color: green;
       border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   }
+  #nunoya{
+    clear: both;
+    width: 100%;
+    background-color: green;
+    height: 850px;
+    padding: 20px 0 0 0;
+    border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
+  }
+  #norma{
+    clear: both;
+    width: 100%;
+    background-color: green;
+    height: 850px;
+    padding: 20px 0 0 0;
+    border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
+  }
   .grande{
   width: 45%;
   height: 40%;
