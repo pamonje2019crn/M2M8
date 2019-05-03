@@ -1,0 +1,36 @@
+body{
+  background-color: pink;
+  margin: 0;
+}
+
+#fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url(fondo.jpg);
+  position: relative;
+
+}
+#idioma{
+  background-color: red;
+  width: 100%;
+  height: 80%;
+  top: -250px;
+  position: relative;
+
+}
+#catala{
+height: 50px;
+width: 10%;
+border: 3px white solid;
+display: inline-block;
+margin: 0 0 0 40%;
+text-align: center;
+font-size: 1em;
+}
+#castellano{
+display: inline-block;
+height: 50px;
+width: 10%;
+border: 3px white solid;
+text-align: center;
+}

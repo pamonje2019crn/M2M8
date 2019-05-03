@@ -50,7 +50,7 @@ p{
   margin: 0 40% 0 40%;
   text-align: center;
   padding: 30px 0 0 0;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 #textos{
   width: 100%;
@@ -112,10 +112,12 @@ h1{
   background-color: green;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
 }
+
+
 #nunoya{
   clear: both;
   background-color: green;
-  height: 1000px;
+  height: 850px;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
 }
@@ -123,21 +125,21 @@ h1{
   clear: both;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
-  height: 1000px;
+  height: 850px;
   background-color: green;
 }
 #norma{
   clear: both;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
-  height: 1000px;
+  height: 850px;
   background-color: green;
 }
 #haiku{
   clear: both;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
-  height: 1000px;
+  height: 850px;
   background-color: green;
 }
 .grande{
@@ -162,7 +164,7 @@ height: 200px;
 background-color: black;
 position:absolute;
 clear: both;
-margin-top: 5500px;
+margin-top: 5000px;
 }
 #flecha{
   width: 3%;
