@@ -27,7 +27,7 @@ p{
   font-size: 1.3em;
 }
 #text{
-  background-color: red;
+
   width: 100px;
   width: 100%;
   clear: both;
@@ -81,10 +81,12 @@ p{
 }
 #secciones{
   width: 80%;
-  height: 150px;
+  height: 70px;
   margin: 0 10% 0 10%;
   position: relative;
   z-index: 15;
+  background-color: rgba(209, 209, 202, 0.89) ;
+
 }
 .secc{
    width:15%;
@@ -98,8 +100,8 @@ p{
 }
 #nosotros{
   width: 60%;
-  height: 4400px;
-  background-color: red;
+  height: 5190px;
+
   margin: 10% 20% 0 20%;
 }
 h1{
@@ -109,12 +111,12 @@ h1{
   height: 1000px;
   padding: 20px 0 0 0;
   clear: both;
-  background-color: green;
+
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
 }
 #nunoya{
   clear: both;
-  background-color: green;
+
   height: 1000px;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
@@ -124,21 +126,21 @@ h1{
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   height: 1000px;
-  background-color: green;
+
 }
 #norma{
   clear: both;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   height: 1000px;
-  background-color: green;
+
 }
 #haiku{
   clear: both;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   height: 1000px;
-  background-color: green;
+
 }
 .grande{
 width: 40%;
