@@ -82,18 +82,18 @@
     position: relative;
     z-index: 15;
     clear: both;
-    background-color: red;
+
   }
   .secc{
      width:15%;
      margin-top: 0px;
-     height: 10px;
+     height: 20px;
      float: left;
     text-align: center;
     margin: 0 0 0 0 ;
     font-size: 0.8rem;
     padding: 10% 5% 0 5%;
-    background-color: blue;
+    
 
 
   }
@@ -108,13 +108,13 @@
       padding: 20px 0 0 0;
       clear: both;
       width: 100%;
-      background-color: green;
+
       border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   }
   #nunoya{
     clear: both;
     width: 100%;
-    background-color: green;
+
     height: 850px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
@@ -122,7 +122,7 @@
   #norma{
     clear: both;
     width: 100%;
-    background-color: green;
+
     height: 850px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
@@ -130,7 +130,7 @@
   #otonashi{
     clear: both;
     width: 100%;
-    background-color: green;
+
     height: 850px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
@@ -139,7 +139,7 @@
   #haiku{
     clear: both;
     width: 100%;
-    background-color: green;
+
     height: 850px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
