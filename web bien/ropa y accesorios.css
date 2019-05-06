@@ -1,6 +1,7 @@
 body{
   margin: 0 ;
   font-size: 18px;
+  padding: 0;
 
 }
 p{
@@ -81,11 +82,10 @@ p{
 }
 #secciones{
   width: 80%;
-  height: 70px;
+  height: 150px;
   margin: 0 10% 0 10%;
   position: relative;
   z-index: 15;
-  background-color: rgba(209, 209, 202, 0.89) ;
 
 }
 .secc{
@@ -171,9 +171,8 @@ margin-top: 5500px;
   height: 50px;
   background-color: white;
   border-radius: 50px;
-  text-align: center;
   padding-top: 5px;
-  padding-left: 25px;
+  padding-left: 15px;
   margin: -1% 48% 0 48%;
   style-type: none;
 
