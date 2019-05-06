@@ -1,7 +1,9 @@
-@media screen and (max-width:380px) {
+@media screen and (max-width:480px) {
   body{
-    font-size: 14px;
-    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    line-height: 1rem;
   }
   #arriba{
     width: 100%;
@@ -36,10 +38,9 @@
     width: 100%;
     height: 100px;
     position: absolute;
-
   }
   #texto{
-    background-color: rgba(255, 255, 255, 0.76);
+
     height: 30px;
     width: 60%;
     margin: 5% 20% 0 20%;
@@ -77,21 +78,22 @@
   #secciones{
     width: 100%;
     height: 30px;
-    margin: 0 0 0 0;
+    margin: 0 0% 0 0%;
     position: relative;
     z-index: 15;
     clear: both;
-
+    background-color: red;
   }
   .secc{
-     width:22%;
+     width:15%;
      margin-top: 0px;
      height: 10px;
      float: left;
     text-align: center;
     margin: 0 0 0 0 ;
-    font-size: 0.9em;
-    padding-top: 20px;
+    font-size: 0.8rem;
+    padding: 10% 5% 0 5%;
+    background-color: blue;
 
 
   }
@@ -106,13 +108,13 @@
       padding: 20px 0 0 0;
       clear: both;
       width: 100%;
-
+      background-color: green;
       border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   }
   #nunoya{
     clear: both;
     width: 100%;
-
+    background-color: green;
     height: 850px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
@@ -120,7 +122,7 @@
   #norma{
     clear: both;
     width: 100%;
-
+    background-color: green;
     height: 850px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
@@ -128,7 +130,7 @@
   #otonashi{
     clear: both;
     width: 100%;
-
+    background-color: green;
     height: 850px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
@@ -137,6 +139,7 @@
   #haiku{
     clear: both;
     width: 100%;
+    background-color: green;
     height: 850px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
@@ -161,17 +164,16 @@
   height: 100px;
   background-color: black;
   position:absolute;
-  margin-top: 4660px;
+  margin-top: 1000px;
   }
   #flecha{
-    width: 20%;
+    width: 16%;
     height: 50px;
     background-color: white;
     border-radius: 50px;
     text-align: center;
     padding-top: 5px;
-    padding-left: 40px;
-    margin: -5% 40% 0 38%;
+    margin: -5% 42% 0 42%;
     style-type: none;
   }
   #redes{
