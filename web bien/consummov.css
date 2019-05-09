@@ -46,7 +46,7 @@
     margin: 5% 20% 0 20%;
     text-align: center;
     padding: 10px 0 0 0;
-    font-size: 0.7em;
+    font-size: 1.5em;
   }
   #textos{
     width: 100%;
@@ -61,7 +61,7 @@
     text-align: center;
     padding: 15px 0 0 0;
     margin: 10px 15% 0 15%;
-    font-size: 1em;
+    font-size: 1.5em;
   }
   #fondo{
     width: 100%;
@@ -88,8 +88,7 @@
   .secc{
      width:15%;
      margin-top: 0px;
-
-     height: 100px;
+     height: 90px;
      float: left;
     text-align: center;
     margin: 0 0 0 0 ;
@@ -107,7 +106,7 @@
     background-color: white;
   }
   #madame{
-      height: 550px;
+      height: 640px;
       padding: 20px 0 0 0;
       clear: both;
       width: 100%;
@@ -118,7 +117,7 @@
     clear: both;
     width: 100%;
     background-color: white;
-    height: 690px;
+    height: 570px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   }
@@ -126,7 +125,7 @@
     clear: both;
     width: 100%;
     background-color: white;
-    height: 550px;
+    height: 520px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   }
@@ -134,7 +133,7 @@
     clear: both;
     width: 100%;
     background-color: white;
-    height: 550px;
+    height: 580px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   }
@@ -143,7 +142,7 @@
     clear: both;
     width: 100%;
     background-color: white;
-    height: 550px;
+    height: 520px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   }
@@ -167,16 +166,16 @@
   height: 100px;
   background-color: black;
   position:absolute;
-  margin-top: 1050px;
+  margin-top: 2700px;
   }
   #flecha{
-    width: 30%;
+    width: 20%;
     height: 50px;
     background-color: white;
     border-radius: 50px;
     text-align: center;
     padding-top: 5px;
-    padding-left: 5px;
+    padding-left: 50px;
     margin: -5% 40% 0 35%;
     style-type: none;
   }

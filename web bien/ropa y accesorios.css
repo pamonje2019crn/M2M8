@@ -164,15 +164,17 @@ height: 200px;
 background-color: black;
 position:absolute;
 clear: both;
-margin-top: 5500px;
+margin-top: 6700px;
+text-align: center;
 }
 #flecha{
-  width: 3%;
+  width: 4%;
   height: 50px;
   background-color: white;
   border-radius: 50px;
   padding-top: 5px;
-  padding-left: 15px;
+  padding-left: 2%;
+  text-align: center;
   margin: -1% 48% 0 48%;
   style-type: none;
 
