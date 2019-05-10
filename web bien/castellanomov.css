@@ -7,46 +7,58 @@
   }
   #arriba{
     width: 100%;
-    height: 30px;
+    height: 100px;
+    position: absolute;
     clear: both;
-    position: fixed;
-    z-index: 10;
-
+  z-index: 10;
   }
   #idioma{
     width: 40%;
     height: 50px;
     margin: 0 0 0 60%;
-
+    
+    z-index: 10;
   }
   .ca{
-    width: 20%;
-    height: 10px;
-    margin: 0 -10% 0 28%;
-    float: left;
-    text-align: right;
-    padding-top: 40px;
-    font-size: 0.75em;
+    width: 50px;
 
+    float: left;
+    text-align: center;
+    padding: 10% 5%;
+    font-size: 0.8rem;
+    z-index: 10;
+  }
+  #secciones{
+    display: none;
   }
   #logo{
     width: 16%;
-    margin: 10px 0 0 30px;
+    margin: 1% 0 0 1%;
     float: left;
+    position: relative;
+    z-index: 10;
+  }
+  #menu{
+    width:60%;
+    float: left;
+    text-align: right;
+    position: relative;
+    z-index: 4;
   }
   #medio{
     width: 100%;
     height: 100px;
     position: absolute;
+    z-index: 6;
   }
   #texto{
     background-color: rgba(255, 255, 255, 0.76);
-    height: 30px;
+    height: 40px;
     width: 60%;
     margin: 5% 20% 0 20%;
     text-align: center;
-    padding: 10px 0 0 0;
-    font-size: 0.7em;
+    padding: 7px 0 0 0;
+    font-size: 1em;
   }
   #textos{
     width: 100%;
@@ -59,7 +71,7 @@
     height: 40px;
     width: 70%;
     text-align: center;
-    padding: 15px 0 0 0;
+    padding: 7px 0 0 0;
     margin: 10px 15% 0 15%;
     font-size: 1em;
   }
@@ -68,56 +80,37 @@
     height: 100%;
     z-index: 10;
   }
+
   #blog{
     width: 100%;
     height: 700px;
     position: absolute;
     margin-top: -10px;
     z-index: 15;
-    background-color: white;
-  }
-  #secciones{
-    width: 100%;
-    height: 30px;
-    margin: 0 0% 0 0%;
-    position: relative;
-    z-index: 15;
-    clear: both;
 
   }
-  .secc{
-     width:15%;
-     margin-top: 0px;
 
-     height: 100px;
-     float: left;
-    text-align: center;
-    margin: 0 0 0 0 ;
-    font-size: 1rem;
-    padding: 10% 5% 0 5%;
-
-
-
-  }
   #nosotros{
     width: 90%;
     height: 100px;
     padding-top: 50px;
     margin: 0 5% 0 5%;
-    background-color: white;
+
+    position: relative;
+    z-index: 6;
   }
   #madame{
       height: 550px;
       padding: 20px 0 0 0;
       clear: both;
       width: 100%;
-      background-color: white;
+
       border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   }
   #nunoya{
     clear: both;
     width: 100%;
-    background-color: white;
+
     height: 690px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
@@ -125,7 +118,7 @@
   #norma{
     clear: both;
     width: 100%;
-    background-color: white;
+
     height: 550px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
@@ -133,7 +126,7 @@
   #otonashi{
     clear: both;
     width: 100%;
-    background-color: white;
+
     height: 550px;
     padding: 20px 0 0 0;
     border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
@@ -170,14 +163,14 @@
   margin-top: 1050px;
   }
   #flecha{
-    width: 30%;
-    height: 50px;
+    width: 15%;
+    height: 30px;
     background-color: white;
     border-radius: 50px;
     text-align: center;
     padding-top: 5px;
-    padding-left: 5px;
-    margin: -5% 40% 0 35%;
+    padding-left: 1px;
+    margin: -5% 43% 0 42%;
     style-type: none;
   }
   #redes{
@@ -195,12 +188,62 @@
   list-style-type: none;
   padding: 10px 0 0 0;
   }
-  #secciones .secc:hover > .tiendas{
-    display: block;
 
-  }
+
+
   a{
     text-decoration: none;
   }
+
+
+  #fondomenu{
+    width: 100%;
+    background-color: blue;
+    height: 700px;
+    display: none;
+    margin:-40% 0 0 -55%;
+    position: relative;
+    z-index:5;
+    style-type:none;
+    list-style-type: none;
+  }
+  li{
+    text-decoration: none;
+  }
+  #activar{
+    background-color: red;
+    position: absolute;
+    margin:9% 0 0 37%;
+    width: 60%;
+  }
+  #nivel2-1{
+  width: 10%;
+  height: 100px;
+  }
+
+
+
+  #menu{
+    width: 85%;
+    margin: 0 0% 0 0;
+    z-index: 15;
+    font-size: 0.8rem;
+
+  }
+#menu * { list-style:none; }
+#menu li{ line-height:180%; }
+#menu li a{color:#222; text-decoration:none; }
+#menu li a:before{ content:"\025b8"; color:#ddd; margin-right:4px;}
+#menu input[name="list"] {
+	position: absolute;
+	left: -1000em;
+
+	}
+#menu label:before{ content:"\025b8"; margin-right:4px;}
+#menu input:checked ~ label:before{ content:"\025be";}
+#menu .interior{display: none;}
+#menu input:checked ~ ul{display:block;}
+
+
 
 }
