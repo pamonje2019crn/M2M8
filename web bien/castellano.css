@@ -3,13 +3,15 @@ body{
   margin: 0 ;
   font-size: 18px;
 }
+p{
+  text-align: left;
+}
 #arriba{
   width: 100%;
   height: 205px;
   clear: both;
-position: fixed;
+  position: fixed;
   z-index: 10;
-
 }
 #idioma{
   width: 15%;
@@ -66,6 +68,7 @@ position: fixed;
 #fondo{
   width: 100%;
   height: 100%;
+  color: pink;
 }
 #blog{
   background-color: white;
