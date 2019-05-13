@@ -14,17 +14,18 @@
   z-index: 10;
   }
   #idioma{
-    width: 40%;
+    width: 50%;
     height: 50px;
-    margin: 0 0 0 60%;
+    margin: 0 0 0 50%;
 
 
   }
   .ca{
-    width: 50px;
+
+    width: 55px;
     float: left;
     text-align: center;
-    padding: 10% 5%;
+    padding: 10% 6%;
     font-size: 0.8rem;
     z-index: 10;
   }
@@ -167,7 +168,7 @@
     background-color: white;
     border-radius: 50px;
     text-align: center;
-    padding-top: 5px;
+
     padding-left: 1px;
     margin: -5% 43% 0 42%;
     style-type: none;
@@ -195,7 +196,7 @@
   }
 
   #activar{
-    background-color: red;
+
     position: absolute;
     margin:9% 0 0 37%;
     width: 60%;
@@ -208,6 +209,7 @@
 
 
   #menu{
+
     width: 85%;
     margin: 0 0% 0 0;
     z-index: 15;
