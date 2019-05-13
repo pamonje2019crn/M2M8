@@ -4,106 +4,115 @@
     padding: 0;
     font-size: 1rem;
     line-height: 1.2rem;
+    width: 100%;
   }
   #arriba{
     width: 100%;
-    height: 30px;
+    height: 100px;
     clear: both;
-    position: fixed;
+    position: absolute;
     z-index: 10;
-
+  }
+  #arriba  a{
+    color: white;
   }
   #idioma{
-    width: 40%;
+    width: 50%;
     height: 50px;
-    margin: 0 0 0 60%;
-
+    margin: 0 0 0 50%;
+    text-decoration-color: white;
+  }
+  #arriba  a{
+    color: white;
+  }
+  a:active{
+    color: black pink;
   }
   .ca{
-    width: 20%;
-    height: 10px;
-    margin: 0 -10% 0 28%;
+    color: white;
+    width: 55px;
     float: left;
-    text-align: right;
-    padding-top: 40px;
-    font-size: 0.75em;
-
-  }
-  #logo{
-    width: 16%;
-    margin: 10px 0 0 30px;
-    float: left;
-  }
-  #medio{
-    width: 100%;
-    height: 100px;
-    position: absolute;
-  }
-  #text{
-    
-    width: 100%;
-    height: 100px;
-    clear: both;
-  }
-  #texto{
-    background-color: rgba(255, 255, 255, 0.76);
-    height: 30px;
-    width: 60%;
-    margin: 5% 20% 0 20%;
     text-align: center;
-    padding: 10px 0 0 0;
-    font-size: 1.5em;
-  }
-  #textos{
-    width: 100%;
-    height: 240px;
-    position: absolute;
-    margin-top: 20%;
-  }
-  #texto1{
-    background-color: rgba(255, 255, 255, 0.76);
-    height: 40px;
-    width: 70%;
-    text-align: center;
-    padding: 15px 0 0 0;
-    margin: 10px 15% 0 15%;
-    font-size: 1.5em;
-  }
-  #fondo{
-    width: 100%;
-    height: 100%;
+    padding: 10% 6%;
+    font-size: 0.8rem;
     z-index: 10;
-  }
-  #blog{
-    width: 100%;
-    height: 700px;
-    position: absolute;
-    margin-top: -10px;
-    z-index: 15;
-    background-color: white;
-  }
-  #secciones{
-    width: 100%;
-    height: 30px;
-    margin: 0 0% 0 0%;
-    position: relative;
-    z-index: 15;
-    clear: both;
 
   }
-  .secc{
-     width:15%;
-     margin-top: 0px;
-     height: 100px;
-     float: left;
-    text-align: center;
-    margin: 0 0 0 0 ;
-    font-size: 1rem;
-    padding: 10% 5% 0 5%;
+    #secciones{
+      display: none;
+    }
 
+    #logo{
+      width: 16%;
+      margin: 1% 0 0 1%;
+      float: left;
+      position: relative;
+      z-index: 10;
+    }
+    #medio {
+      width: 100%;
+      height: 100px;
+      position: absolute;
+      z-index: 6;
+    }
+    #text{
+      width: 100%;
 
+      height: 180px;
+      clear: both;
+    }
+    #menu {
+      width:60%;
+      float: left;
+      text-align: right;
+      position: relative;
+      z-index: 4;
+    }
+    #texto {
+      background-color: rgba(255, 255, 255, 0.76);
+      height: 40px;
+      width: 60%;
+      margin: 5% 20% 0 20%;
+      text-align: center;
+      padding: 7px 0 0 0;
+      font-size: 1em;
+    }
+    #textos{
+      width: 100%;
+      height: 240px;
+      position: absolute;
+      margin-top: 20%;
+    }
+    #texto1{
+      background-color: rgba(255, 255, 255, 0.76);
+      height: 40px;
+      width: 70%;
+      text-align: center;
+      padding: 7px 0 0 0;
+      margin: 10px 15% 0 15%;
+      font-size: 1em;
+    }
+    #fondo{
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+    }
+    #blog{
+      width: 100%;
+      height: 700px;
+      position: absolute;
+      margin-top: -10px;
+      z-index: 15;
+    }
 
-  }
+    #nosotros{
+      width: 90%;
+      height: 100px;
+      padding-top: 50px;
+      margin: 0 5% 0 5%;
+      position: relative;
+      z-index: 6;
+    }
   #nosotros{
     width: 90%;
     height: 100px;
@@ -112,100 +121,118 @@
     background-color: white;
   }
   #madame{
-      height: 650px;
+      height: 670px;
       padding: 20px 0 0 0;
       clear: both;
       width: 100%;
       background-color: white;
-      border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   }
   #nunoya{
     clear: both;
     width: 100%;
     background-color: white;
-    height: 660px;
+    height: 670px;
     padding: 20px 0 0 0;
-    border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
+    border-top: 5px rgba(209, 209, 202, 0.89) solid;
   }
   #norma{
     clear: both;
     width: 100%;
     background-color: white;
-    height: 800px;
+    height: 700px;
     padding: 20px 0 0 0;
-    border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
+    border-top: 5px rgba(209, 209, 202, 0.89) solid;
   }
   #otonashi{
     clear: both;
     width: 100%;
     background-color: white;
-    height: 650px;
+    height: 680px;
     padding: 20px 0 0 0;
-    border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
+    border-top: 5px rgba(209, 209, 202, 0.89) solid;
   }
 
   #haiku{
     clear: both;
     width: 100%;
     background-color: white;
-    height: 520px;
+    height: 480px;
     padding: 20px 0 0 0;
-    border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
+    border-top: 5px rgba(209, 209, 202, 0.89) solid;
   }
 
-  .grande{
-  width: 97%;
-  height: 40%;
-  margin: 0 2% 5% 2%;
-
-  }
-
-  .pequeña{
-    padding: 20px 0 0 0;
-    width: 31%;
-    height: 25%;
-    margin: 0 1% 5% 1%;
+    .grande{
+    width: 95%;
+    height: 40%;
+    margin: 0 2% 5% 2%;
     float: left;
-  }
-  #abajo{
-  width: 100%;
-  height: 100px;
-  background-color: black;
-  position:absolute;
-  margin-top: 7300px;
-  }
-  #flecha{
-    width: 20%;
-    height: 50px;
-    background-color: white;
-    border-radius: 50px;
-    text-align: center;
-    padding-top: 5px;
-    padding-left: 50px;
-    margin: -5% 40% 0 35%;
-    style-type: none;
-  }
-  #redes{
+    }
+    .pequeña{
+      padding: 20px 0 0 0;
+      width: 31%;
+      height: 25%;
+      margin: 0 1% 5% 1%;
+      float: left;
+    }
+    #abajo{
     width: 100%;
-    margin: 2% 0% 0 0%;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    margin-top: 7110px;
+    }
+    #flecha{
+      width: 15%;
+      height: 30px;
+      background-color: white;
+      border-radius: 50px;
+      text-align: center;
+      padding-top: 1px;
+      padding-left: 1px;
+      margin: -5% 43% 0 42%;
+      style-type: none;
+    }
+    #redes{
+      width: 100%;
+      margin: 2% 0% 0 0%;
+    }
+    .img{
+      width: 16%;
+      margin: 0 4% 0 4%;
+    }
+    .tiendas{
+    width: 100%;
+    height: 30px;
+    display: none;
+    list-style-type: none;
+    padding: 10px 0 0 0;
+    }
+    #secciones .secc:hover > .tiendas{
+      display: block;
+    }
+    a{
+      text-decoration: none;
+    }
+    #nivel2-1{
+    width: 10%;
+    height: 100px;
+    }
+    #menu{
+      width: 85%;
+      margin: 0 0% 0 0;
+      z-index: 15;
+      font-size: 0.8rem;
+    }
+    #menu * { list-style:none; }
+    #menu li{ line-height:180%; }
+    #menu li a{color:#222; text-decoration:none; }
+    #menu li a:before{ content:"\025b8"; color:#ddd; margin-right:4px;}
+    #menu input[name="list"] {
+      position: absolute;
+      left: -1000em;
+      }
+    #menu label:before{ content:"\025b8"; margin-right:4px;}
+    #menu input:checked ~ label:before{ content:"\025be";}
+    #menu .interior{display: none;}
+    #menu input:checked ~ ul{display:block;}
   }
-  .img{
-    width: 16%;
-    margin: 0 4% 0 4%;
-  }
-  .tiendas{
-  width: 100%;
-  height: 30px;
-  display: none;
-  list-style-type: none;
-  padding: 10px 0 0 0;
-  }
-  #secciones .secc:hover > .tiendas{
-    display: block;
-
-  }
-  a{
-    text-decoration: none;
-  }
-
-}

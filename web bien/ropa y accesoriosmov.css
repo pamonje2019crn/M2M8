@@ -60,10 +60,8 @@ a:active{
     z-index: 4;
   }
   #text{
-
     height: 200px;
     clear: both;
-
   }
   #texto {
     background-color: rgba(255, 255, 255, 0.76);
@@ -145,7 +143,7 @@ a:active{
     clear: both;
     width: 100%;
     background-color: white;
-    height: 400px;
+    height: 740px;
     padding: 20px 0 0 0;
     border-top: 5px rgba(209, 209, 202, 0.89) solid;
   }
@@ -167,7 +165,7 @@ a:active{
   height: 100px;
   background-color: black;
   position:absolute;
-  margin-top: 4110px;
+  margin-top: 4910px;
   }
   #flecha{
     width: 15%;
