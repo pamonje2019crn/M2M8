@@ -217,7 +217,7 @@ a:active{
   }
   #menu * { list-style:none; }
   #menu li{ line-height:180%; }
-  #menu li a{color:#222; text-decoration:none; }
+  #menu li a{color:#222; }
   #menu li a:before{ content:"\025b8"; color:#ddd; display: none;}
   #menu input[name="list"] {
     position: absolute;
