@@ -214,6 +214,8 @@ a:active{
     z-index: 15;
     background-color: blue;
     font-size: 0.8rem;
+    position: absolute;
+    bottom: 660px;
   }
   #menu * { list-style:none; }
   #menu li{ line-height:180%; }
