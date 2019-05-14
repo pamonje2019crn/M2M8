@@ -199,6 +199,11 @@ a:active{
   a{
     text-decoration: none;
   }
+  #nivel1-1{
+    background-color: red;
+    width: 10%;
+
+  }
   #nivel2-1{
   width: 10%;
   height: 100px;
@@ -207,17 +212,18 @@ a:active{
     width: 85%;
     margin: 0 0% 0 0;
     z-index: 15;
+    background-color: blue;
     font-size: 0.8rem;
   }
   #menu * { list-style:none; }
   #menu li{ line-height:180%; }
   #menu li a{color:#222; text-decoration:none; }
-  #menu li a:before{ content:"\025b8"; color:#ddd; margin-right:4px;}
+  #menu li a:before{ content:"\025b8"; color:#ddd; display: none;}
   #menu input[name="list"] {
     position: absolute;
     left: -1000em;
     }
-  #menu label:before{ content:"\025b8"; margin-right:4px;}
+  #menu label:before{ content:"\025b8"; display: none;}
   #menu input:checked ~ label:before{ content:"\025be";}
   #menu .interior{display: none;}
   #menu input:checked ~ ul{display:block;}
