@@ -130,42 +130,42 @@ a:active{
     border-bottom: 5px rgb(207, 214, 212) solid;
   }
   #madame{
-      height: 600px;
+      height: 585px;
       padding: 20px 0 0 0;
       clear: both;
       width: 100%;
-
+      
 
   }
   #nunoya{
     clear: both;
     width: 100%;
-    background-color: white;
-    height: 720px;
+
+    height: 680px;
     padding: 20px 0 0 0;
 
   }
   #norma{
     clear: both;
     width: 100%;
-    background-color: white;
-    height: 710px;
+
+    height: 570px;
     padding: 20px 0 0 0;
 
   }
   #otonashi{
     clear: both;
     width: 100%;
-    background-color: white;
-    height: 710px;
+
+    height: 550px;
     padding: 20px 0 0 0;
 
   }
   #haiku{
     clear: both;
     width: 100%;
-    background-color: white;
-    height: 640px;
+
+    height: 560px;
     padding: 20px 0 0 0;
 
   }
@@ -187,7 +187,7 @@ a:active{
   height: 100px;
   background-color: black;
   position:absolute;
-  margin-top: 5210px;
+  margin-top: 4470px;
   }
   #flecha{
     width: 15%;
