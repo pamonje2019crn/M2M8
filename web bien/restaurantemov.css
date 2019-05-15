@@ -104,9 +104,11 @@ a:active{
     z-index: 6;
   }
   #text{
+
     font-size: 1rem;
     line-height: 1.2rem;
     clear: both;
+    width: 100%;
 
   }
   #text1{
@@ -131,47 +133,49 @@ a:active{
   }
 
   #madame{
-      height: 670px;
+      height: 480px;
       padding: 20px 0 0 0;
       clear: both;
       width: 100%;
-      background-color: white;
+
+      border-bottom: none;
+
   }
   #nunoya{
     clear: both;
     width: 100%;
-    background-color: white;
-    height: 670px;
-    padding: 20px 0 0 0;
 
+    height: 520px;
+    padding: 20px 0 0 0;
+    border-bottom: none;
   }
   #norma{
     clear: both;
     width: 100%;
-    background-color: white;
-    height: 700px;
-    padding: 20px 0 0 0;
 
+    height: 650px;
+    padding: 20px 0 0 0;
+    border-bottom: none;
   }
   #otonashi{
     clear: both;
     width: 100%;
-    background-color: white;
-    height: 680px;
-    padding: 20px 0 0 0;
 
+    height: 520px;
+    padding: 20px 0 0 0;
+    border-bottom: none;
   }
 
   #haiku{
     clear: both;
     width: 100%;
-    background-color: white;
-    height: 480px;
-    padding: 20px 0 0 0;
 
+    height: 460px;
+    padding: 20px 0 0 0;
+    border-bottom: none;
   }
   .grande{
-  width: 45%;
+  width: 95%;
   height: 40%;
   margin: 0 2% 5% 2%;
   float: left;
@@ -188,16 +192,16 @@ a:active{
   height: 100px;
   background-color: black;
   position:absolute;
-  margin-top: 4470px;
+  margin-top: 5970px;
   }
   #flecha{
-    width: 15%;
+    width: 11%;
     height: 30px;
     background-color: white;
     border-radius: 50px;
     text-align: center;
     padding-top: 1px;
-    padding-left: 1px;
+    padding-left: 20px;
     margin: -5% 43% 0 42%;
     style-type: none;
   }

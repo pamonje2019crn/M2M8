@@ -100,7 +100,7 @@ p{
 #nosotros{
   width: 60%;
   height: 6900px;
-  
+
   margin: 10% 20% 0 20%;
 }
 h1{
@@ -166,19 +166,21 @@ height: 200px;
 background-color: black;
 position:absolute;
 clear: both;
-margin-top: 7000px;
+margin-top: 8700px;
 }
 #flecha{
-  width: 3%;
+  width: 4%;
   height: 50px;
   background-color: white;
   border-radius: 50px;
   text-align: center;
   padding-top: 5px;
-  padding-left: 25px;
   margin: -1% 48% 0 48%;
   style-type: none;
-
+  text-align: center;
+}
+#flecha p{
+  margin-left: 40%;
 }
 #redes{
   width: 20%;

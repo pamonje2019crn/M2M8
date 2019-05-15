@@ -126,7 +126,10 @@ h1{
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   height: 1000px;
-  background-color: green;
+
+}
+#menu{
+   display: none;
 }
 #norma{
   clear: both;
@@ -164,19 +167,21 @@ height: 200px;
 background-color: black;
 position:absolute;
 clear: both;
-margin-top: 5000px;
+margin-top: 4500px;
 }
 #flecha{
-  width: 3%;
+  width: 4%;
   height: 50px;
   background-color: white;
   border-radius: 50px;
   text-align: center;
   padding-top: 5px;
-  padding-left: 25px;
   margin: -1% 48% 0 48%;
   style-type: none;
-
+  text-align: center;
+}
+#flecha p{
+  margin-left: 40%;
 }
 #redes{
   width: 20%;

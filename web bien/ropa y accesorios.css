@@ -167,7 +167,7 @@ height: 200px;
 background-color: black;
 position:absolute;
 clear: both;
-margin-top: 6700px;
+margin-top: 8650px;
 
 }
 #flecha{
@@ -179,6 +179,10 @@ margin-top: 6700px;
   padding-top: 5px;
   margin: -1% 48% 0 48%;
   style-type: none;
+  text-align: center;
+}
+#flecha p{
+  margin-left: 40%;
 }
 #redes{
   width: 20%;
