@@ -116,6 +116,10 @@ margin-top: 2000px;
   padding-top: 5px;
   margin: -1% 48% 0 48%;
   style-type: none;
+  text-align: center;
+}
+#flecha p{
+  margin-left: 40%;
 }
 #redes{
   width: 20%;
