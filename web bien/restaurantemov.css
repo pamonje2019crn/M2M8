@@ -195,13 +195,13 @@ a:active{
   margin-top: 5970px;
   }
   #flecha{
-    width: 11%;
+    width: 15%;
     height: 30px;
     background-color: white;
     border-radius: 50px;
     text-align: center;
     padding-top: 1px;
-    padding-left: 20px;
+
     margin: -5% 43% 0 42%;
     style-type: none;
   }

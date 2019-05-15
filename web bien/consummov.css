@@ -134,7 +134,7 @@ a:active{
       padding: 20px 0 0 0;
       clear: both;
       width: 100%;
-      
+
       border-bottom: none;
   }
   #nunoya{
@@ -200,7 +200,7 @@ a:active{
     border-radius: 50px;
     text-align: center;
     padding-top: 1px;
-    padding-left: 1px;
+
     margin: -5% 43% 0 42%;
     style-type: none;
   }
@@ -239,9 +239,6 @@ a:active{
     margin: 0 0% 0 0;
     z-index: 15;
     font-size: 0.8rem;
-
-
-
   }
   #menu * { list-style:none; text-align: right;}
   #menu li{ line-height:180%; }
