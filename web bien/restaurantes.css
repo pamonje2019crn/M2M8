@@ -16,23 +16,22 @@ p{
 }
 #idioma{
   width: 15%;
-  height: 100px;
-  margin: 0 0 0 85%;
+  height: 10px;
+  margin: 5% 0 0 85%;
 }
 .ca{
   width: 50%;
   height: 40px;
-  float: left;
+  display: inline;
   text-align: center;
-  padding-top: 60px;
-  font-size: 1.3em;
+
+  font-size: 1.4em;
 }
-#text{
+.text{
 
 
-  width: 85%;
-  margin: 7% 0 0 0;
-  text-align: justify;
+  width: 100%;
+  clear: both;
 }
 #logo{
   width: 8%;
@@ -66,7 +65,7 @@ p{
   height: 70px;
   width: 30%;
   text-align: center;
-  padding: 30px 0 0 0;
+  padding: 5px 0 0 0;
   margin: 10px 35% 0 35%;
   font-size: 1.6em;
 }
@@ -87,15 +86,16 @@ p{
   margin: 0 10% 0 10%;
   position: relative;
   z-index: 15;
+  font-size: 1.3em;
 }
 .secc{
-   width:15%;
-   height: 30px;
-   float: left;
-  text-align: left;
-  margin-top: 100px;
-  margin-left: 8%;
-  font-size: 1.3em;
+  width:15%;
+  height: 30px;
+  float: left;
+ text-align: left;
+ margin-top: 100px;
+ margin-left: 8%;
+ font-size: 1.3em;
 
 }
 #nosotros{
@@ -104,11 +104,17 @@ p{
 
   margin: 10% 20% 0 20%;
 }
+#nosotros h2{
+  font-size: 1.6em;
+}
+#nosotros p{
+  font-size: 1.3em;
+}
 h1{
   text-align: center;
 }
 #madame{
-  height: 500px;
+  height: 600px;
   padding: 20px 0 0 0;
   clear: both;
 
@@ -119,7 +125,7 @@ h1{
 #nunoya{
   clear: both;
 
-  height: 500px;
+  height: 630px;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
 }
@@ -127,7 +133,7 @@ h1{
   clear: both;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
-  height: 500px;
+  height: 600px;
 
 
 }
@@ -150,15 +156,10 @@ width: 40%;
 height: 40%;
 margin: 5%;
 float: left;
+transform: scale(10px);
 }
 
-.pequeña{
 
-  width: 31%;
-  height: 25%;
-  margin: 1% ;
-  float: left;
-}
 
 #menu{
    display: none;
@@ -178,26 +179,30 @@ margin-top: 8700px;
   border-radius: 50px;
   text-align: center;
   padding-top: 5px;
-  margin: -1% 48% 0 48%;
+  margin: -1% 0 0 47%;
   style-type: none;
   text-align: center;
 }
 #flecha p{
-  margin-left: 40%;
+  margin-top: -1px;
+  margin-left: 12px;
+  font-size: 2em;
+  position: absolute;
 }
 #redes{
-  width: 20%;
-  margin: 2% 40% 0 40%;
+  width: 40%;
+  margin: 2% 30% 0 30%;
 }
 .img{
   width: 23%;
 }
 .tiendas{
-width: 100%;
-height: 30px;
-display: none;
-list-style-type: none;
-padding: 10px 0 0 0;
+  width: 200%;
+  height: 70px;
+  display: none;
+
+  list-style-type: none;
+  padding: 10px 0 0 0;
 }
 #secciones .secc:hover > .tiendas{
   display: block;
