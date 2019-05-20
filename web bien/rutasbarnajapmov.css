@@ -12,18 +12,17 @@ body{
 
 }
 #idioma{
-
-
+display: none;
 }
 #catala{
 height:50px;
 width: 20%;
-background-color: white;
+background-color: ;
 display: inline-block;
 margin: 0 0 0 30%;
 text-align: center;
 padding: 20px 0 0 0;
-font-size: 1.5em;
+font-size: 1em;
 }
 #castellano{
 display: inline-block;
