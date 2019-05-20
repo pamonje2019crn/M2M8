@@ -5,21 +5,28 @@ body{
   width: 100%;
 }
 #fondo{
+  position: relative;
+display: none;
+}
+#fondo2{
   width: 100%;
 
-
-  position: relative;
+z-index: 1;
+position: relative;
 
 }
 #idioma{
-display: none;
+z-index: 5;
+margin: -50px 0 0 0;
+width: 100%;
+background-color: red;
 }
 #catala{
 height:50px;
-width: 20%;
-background-color: ;
+
+background-color: white;
 display: inline-block;
-margin: 0 0 0 30%;
+margin: 0 0 0 20%;
 text-align: center;
 padding: 20px 0 0 0;
 font-size: 1em;
@@ -28,11 +35,11 @@ font-size: 1em;
 display: inline-block;
 height: 50px;
 margin: 0 0 0 0;
-width: 20%;
+
 background-color: white;
 padding: 20px 0 0 0;
 text-align: center;
-font-size: 1.5em;
+font-size: 1em;
 }
 a{
   text-decoration: none;

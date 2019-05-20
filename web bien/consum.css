@@ -150,8 +150,8 @@ h1{
   clear: both;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
-  height: 1000px;
-  background-color: green;
+  height: 740px;
+
 }
 .grande{
 width: 40%;
@@ -175,7 +175,7 @@ height: 200px;
 background-color: black;
 position:absolute;
 clear: both;
-margin-top: 4500px;
+margin-top: 4300px;
 }
 #flecha{
   width: 4%;
