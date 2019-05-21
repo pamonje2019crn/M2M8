@@ -16,15 +16,16 @@ p{
 }
 #idioma{
   width: 15%;
-  height: 10px;
+  height: 40px;
   margin: 5% 0 0 85%;
+  text-align: center;
 }
 .ca{
   width: 50%;
-  height: 40px;
+  height: 100px;
   display: inline;
   text-align: center;
-
+  background-color: white;
   font-size: 1.4em;
 }
 #text1{
@@ -114,7 +115,7 @@ h1{
   text-align: center;
 }
 #madame{
-  height: 1000px;
+  height: 1100px;
   padding: 20px 0 0 0;
   clear: both;
 
@@ -133,7 +134,7 @@ h1{
   clear: both;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
-  height: 1000px;
+  height: 1100px;
 
 }
 #menu{
@@ -151,7 +152,7 @@ h1{
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
   height: 1000px;
-  background-color: green;
+
 }
 .grande{
 width: 40%;

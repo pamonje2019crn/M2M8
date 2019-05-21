@@ -23,12 +23,18 @@ p{
 #menu{
    display: none;
 }
+#idioma{
+  width: 15%;
+  height: 40px;
+  margin: 5% 0 0 85%;
+  text-align: center;
+}
 .ca{
   width: 50%;
-  height: 40px;
+  height: 100px;
   display: inline;
   text-align: center;
-
+  background-color: white;
   font-size: 1.4em;
 }
 #text1{
@@ -127,7 +133,7 @@ h1{
 #nunoya{
   clear: both;
 
-  height: 1000px;
+  height: 1100px;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
 }
@@ -142,14 +148,14 @@ h1{
   clear: both;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
-  height: 1000px;
+  height: 1080px;
 
 }
 #haiku{
   clear: both;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
-  height: 1000px;
+  height: 1100px;
 
 }
 .grande{
@@ -174,7 +180,7 @@ height: 200px;
 background-color: black;
 position:absolute;
 clear: both;
-margin-top: 8650px;
+margin-top: 9050px;
 
 }
 #flecha{

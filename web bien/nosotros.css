@@ -13,22 +13,22 @@ p{
   position: fixed;
   z-index: 10;
 }
-#idioma{
-  width: 15%;
-  height: 10px;
-  margin: 5% 0 0 85%;
 
-
-}
 #menu{
    display: none;
 }
+#idioma{
+  width: 15%;
+  height: 40px;
+  margin: 5% 0 0 85%;
+  text-align: center;
+}
 .ca{
   width: 50%;
-  height: 40px;
+  height: 100px;
   display: inline;
   text-align: center;
-  padding: 0% 1% 0 2%;
+  background-color: white;
   font-size: 1.4em;
 }
 #logo{

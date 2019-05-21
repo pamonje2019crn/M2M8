@@ -16,15 +16,16 @@ p{
 }
 #idioma{
   width: 15%;
-  height: 10px;
+  height: 40px;
   margin: 5% 0 0 85%;
+  text-align: center;
 }
 .ca{
   width: 50%;
-  height: 40px;
+  height: 100px;
   display: inline;
   text-align: center;
-
+  background-color: white;
   font-size: 1.4em;
 }
 .text{
@@ -114,7 +115,7 @@ h1{
   text-align: center;
 }
 #madame{
-  height: 600px;
+  height: 700px;
   padding: 20px 0 0 0;
   clear: both;
 
@@ -125,7 +126,7 @@ h1{
 #nunoya{
   clear: both;
 
-  height: 630px;
+  height: 700px;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
 }
@@ -133,7 +134,7 @@ h1{
   clear: both;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
-  height: 600px;
+  height: 700px;
 
 
 }
@@ -141,7 +142,7 @@ h1{
   clear: both;
   padding: 20px 0 0 0;
   border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
-  height: 850px;
+  height: 1100px;
 
 }
 #haiku{
@@ -170,7 +171,7 @@ height: 200px;
 background-color: black;
 position:absolute;
 clear: both;
-margin-top: 8700px;
+margin-top: 9700px;
 }
 #flecha{
   width: 4%;
