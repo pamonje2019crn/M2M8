@@ -13,12 +13,7 @@
     position: absolute;
     z-index: 10;
   }
-  #idioma{
-    width: 50%;
-    height: 50px;
-    margin: 0 0 0 50%;
-    text-decoration-color: white;
-  }
+
 
   #arriba  a{
   color: white;
@@ -26,15 +21,20 @@
   a:active{
   color: black pink;
   }
+  #idioma{
+    width: 50%;
+    height: 50px;
+    margin: 0 0 0 50%;
+  text-align: center;
+
+  }
   .ca{
-    color: white;
     width: 55px;
-    float: left;
+    display: inline;
     text-align: center;
-    padding: 10% 6%;
+    background-color: white;
     font-size: 0.8rem;
     z-index: 10;
-
   }
   #secciones{
     display: none;
@@ -147,7 +147,7 @@
   height: 100px;
   background-color: black;
   position:absolute;
-  margin-top: 4470px;
+  margin-top: 270px;
   }
   #flecha{
     width: 15%;

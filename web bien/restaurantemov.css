@@ -13,12 +13,7 @@
     position: absolute;
     z-index: 10;
   }
-  #idioma{
-    width: 50%;
-    height: 50px;
-    margin: 0 0 0 50%;
-    text-decoration-color: white;
-  }
+  
 
 #arriba  a{
   color: white;
@@ -26,16 +21,21 @@
 a:active{
   color: black pink;
 }
-  .ca{
-    color: white;
-    width: 55px;
-    float: left;
-    text-align: center;
-    padding: 10% 6%;
-    font-size: 0.8rem;
-    z-index: 10;
+#idioma{
+  width: 50%;
+  height: 50px;
+  margin: 0 0 0 50%;
+text-align: center;
 
-  }
+}
+.ca{
+  width: 55px;
+  display: inline;
+  text-align: center;
+  background-color: white;
+  font-size: 0.8rem;
+  z-index: 10;
+}
   #secciones{
     display: none;
   }
