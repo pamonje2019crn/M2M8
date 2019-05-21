@@ -1,6 +1,6 @@
 @media screen and (max-width:480px) {
 body{
-  background-color: pink;
+  
   margin: 0;
   width: 100%;
 }
@@ -20,7 +20,7 @@ position: relative;
 z-index: 10;
 margin: -400px 0 0 0;
 width: 100%;
-background-color: red;
+
 position: absolute;
 }
 #catala{
@@ -28,7 +28,7 @@ height:30px;
 
 background-color: white;
 display: inline-block;
-margin: 0 0 0 30%;
+margin: 0 0 0 20%;
 text-align: center;
 padding: 10px 0 0 0;
 font-size: 1em;
