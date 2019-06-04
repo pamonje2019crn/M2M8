@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Transform</title>
+    <style>
+      div{
+        width: 200px;
+        height: 200px;
+        margin: 50px;
+        background-color:  pink;
+        transition: 4s;
+        padding: 0 10mm 4pt 25px;
+      }
+      .Rotate:hover{
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+        background-color: magenta;
+        transition-property: all;
+        transition-duration: 10s;
+        transition-timing-function: ease-out;
+        transition-delay: 10;
+
+      }
+      /* .RotateY:hover{
+        -webkit-transform: RotateY(75deg);
+        transform: RotateY(75deg);
+
+        } */
+      .Translate:hover{
+        -webkit-transform: Translate(100px,0);
+        transform: Translate(100px,0);
+      }
+      .Skew:hover{
+        -webkit-transform: Skew(30deg,0);
+        transform: Skew(30deg,0);
+      }
+      .Scale:hover{
+        -webkit-transform: Scale(100);
+        transform: Scale(100);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Rotate">
+      <h3>Rotate</h3>
+    </div>
+    <div class="RotateY">
+      <h3>RotateY</h3>
+    </div>
+    <div class="Translate">
+      <h3>Translate</h3>
+    </div>
+    <div class="Skew">
+      <h3>Skew</h3>
+    </div>
+    <div class="Scale">
+      <h3>Scale</h3>
+    </div>
+    <div>
+      <h3></h3>
+    </div>
+  </body>
+</html>

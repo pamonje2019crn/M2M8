@@ -1,0 +1,37 @@
+body{
+background-color:#ECA;
+margin: 0;
+padding:0;
+}
+div{
+background-color: #9FA;
+}
+#header{
+  height: 200px;
+  background-color:
+}
+#principal{
+
+  width: 70%;
+  float: left;
+}
+#lateral{
+
+  width: 30%;
+  float: right;
+}
+#peu{
+  height: 100px;
+  clear: both;
+}
+.num{
+  width: 30%;
+  height: 200px;
+  float: left;
+  margin: 1%;
+  border: solid 5px #FFF;
+}
+.lat{
+  height: 150px;
+  margin: 1%;
+}

@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+#todo{
+  background-color: red;
+  width: 1300px;
+  margin-left: 310px;
+}
+.kkt{
+  background-color: yellow;
+  width: 300px;
+  height: 725px;
+  margin:5px;
+  float: left;
+}
+.disco{
+
+  width: 300px;
+  height: 300px;
+}
+.artista{
+  margin:6px;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+.kot{
+  border-radius: 50px;
+}
+.nombre{
+  font-family: cursive;
+  width: 200px;
+  height: 20px;
+  float: right;
+  margin-top: 40px;
+}
+.titulo{
+  width: 300px;
+  height: 50px;
+  clear: both;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 10px;
+}
+.texto{
+  text-align: center;
+  font-size: 16px;
+  width: 300px;
+  height: 150px;
+}
+.dinero{
+  width: 30px;
+  height: 30px;
+  margin-left: 270px;
+}
+.menú{
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+}

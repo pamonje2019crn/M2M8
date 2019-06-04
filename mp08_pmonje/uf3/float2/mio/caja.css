@@ -1,0 +1,48 @@
+
+  body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+  #c1{
+    text-align: center;
+    background-color: red;
+    height: 100px;
+  }
+  #c2{
+    text-align: center;
+    background-color: pink;
+    float: left;
+    width: 75%;
+    height: 500px;
+  }
+  #c3{
+    text-align: center;
+    background-color: green;
+    height: 500px;
+    width: 25%;
+    float: left;
+  }
+  .kk{
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    background-color: blue;
+  }
+  .kk2{
+    width: 100px;
+    height: 100px;
+    display: grid;
+    background-color: blue;
+    margin: 10px;
+  }
+  .kk3{
+    width:250px;
+    background-color: red;
+    float: right;
+  }
+  #c4{
+    text-align: center;
+    background-color: blue;
+    height: 600px;
+  }

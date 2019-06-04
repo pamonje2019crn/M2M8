@@ -1,0 +1,25 @@
+p{
+  color: red;
+  border: solid 2px black;
+  }
+  #girasol{
+    float: left;
+  }
+.ex1{
+  display: none;
+}
+.ex2{
+  display: inline;
+  height: 70px;
+  width: 80px;
+}
+.ex3{
+  display: block;
+  height: 70px;
+  width: 80px;
+}
+.ex4{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}

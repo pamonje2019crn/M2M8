@@ -1,0 +1,456 @@
+body{
+  background-color: blue;
+}
+#circulo{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 100px 100px 100px 100px;
+
+}
+#circulop{
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 100px 100px 100px 100px;
+  margin-top: -70px;
+}
+#circulop2{
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 100px 100px 100px 100px;
+  margin-left: 70px;
+  margin-top: -180px;
+}
+#circulop3{
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 100px 100px 100px 100px;
+  margin-left:50px;
+  margin-top: -60px;
+}
+.todo{
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.sol{
+  height: 300px;
+  width: 300px;
+  border-radius: 300px 300px 300px 300px;
+  box-shadow: 300px 0 0 orange;
+  margin-left: 1250px;
+  animation-name: solete;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: 1000;
+  animation-direction: normal;
+}
+@keyframes solete{
+  0%{
+    top: 0;
+    right: 0;
+  }
+  250%{
+    top: 0;
+    right: 0;
+    box-shadow: 200px 0 0 orange;
+  }
+  500%{
+    top: 0;
+    right: 0;
+      box-shadow: 100px 0 0 orange;
+  }
+  75%{
+    top: 0;
+    right: 0;
+      box-shadow: 50px 0 0 orange;
+  }
+  100%{
+    top: 0;
+    right: 0;
+      box-shadow: 0 0 0 orange;
+  }
+}
+.nuve{
+  position: relative;
+  animation-name: rodar2;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: 1000;
+  animation-direction: normal;
+}
+@keyframes rodar2{
+  0%{
+    top: 0;
+    right: -0;
+
+  }
+  100%{
+    top: 0;
+    right: -1500px;
+  }
+
+}
+.nuve1{
+  margin-left: 1500px;
+  clear: both;
+  position: relative;
+  animation-name: rodar;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: 1000;
+  animation-direction:normal;
+}
+@keyframes rodar{
+  0%{
+    top: 0;
+    right: 0;
+
+  }
+  100%{
+    top: 0;
+    right: 1500px;
+  }
+
+}
+#todasnuves{
+  margin-top: -300px;
+}
+#piramide{
+  width: 0;
+  height: 0;
+  border-left: 400px solid transparent;
+  border-right: 400px solid transparent;
+  border-bottom: 400px solid orange;
+  border-top: 400px solid transparent;
+  margin-top: -500px;
+  margin-left: -80px;
+}
+#piramide1 {
+  width: 0;
+  height: 0;
+  border-left: 500px solid transparent;
+  border-right: 500px solid transparent;
+  border-bottom: 500px solid rgb(204, 111, 13);
+  border-top: 500px solid transparent;
+  margin-top: -1000px;
+  margin-left: 300px;
+}
+#piramide2 {
+  width: 0;
+  height: 0;
+  border-left: 600px solid transparent;
+  border-right: 600px solid transparent;
+  border-bottom: 600px solid orange;
+  border-top: 300px solid transparent;
+  margin-top: -900px;
+  margin-left: 700px;
+}
+#piramide3 {
+  width: 0;
+  height: 0;
+  border-left: 400px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 400px solid rgb(204, 111, 13);
+  border-top: 300px solid transparent;
+  margin-top: -700px;
+  margin-left: 1300px;
+}
+#hormiga{
+  position: relative;
+  animation-name: caminar;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: 1000;
+  animation-direction:normal;
+  margin-top: -30px;
+}
+
+@keyframes caminar{
+  0%{
+    top: 0;
+    right: 0;
+  }
+  50%{
+    top: 0px;
+    right: -600px;
+  }
+  100%{
+    top: -400px;
+    right: -600px;
+  }
+}
+
+#culo{
+  background-color: black;
+  height: 30px;
+  width: 40px;
+  border-radius: 50px 50px 50px 50px;
+}
+#cuerpo{
+  background-color: black;
+  height: 20px;
+  width: 30px;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 40px;
+  margin-top: -25px;
+}
+#cabeza  {
+  background-color: black;
+  height: 40px;
+  width: 50px;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 70px;
+  margin-top: -30px;
+}
+#antena1{
+  background-color: black;
+  height: 5px;
+  width: 30px;
+  margin-left: 100px;
+  margin-top: -40px;
+  transform: rotate(-20deg);
+}
+#antena2{
+  background-color: black;
+  height: 5px;
+  width: 30px;
+  margin-left: 90px;
+  margin-top: -10px;
+  transform: rotate(-40deg);
+}
+#pata1{
+  background-color: black;
+  height: 5px;
+  width: 30px;
+  transform: rotate(-40deg);
+  margin-top: 40px;
+  position: relative;
+  animation-name: movi;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1000;
+  animation-direction:normal;
+}
+@keyframes movi{
+  0%{
+    top: 0;
+    right: 0;
+  }
+  100%{
+    transform: rotate(-80deg);
+    top: 0;
+    right: 0;
+  }
+}
+#pata2{
+  background-color: black;
+  height: 5px;
+  width: 30px;
+  transform: rotate(40deg);
+  margin-top: -10px;
+  margin-left: 60px;
+  position: relative;
+  animation-name: movi2;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1000;
+  animation-direction:normal;
+  }
+  @keyframes movi2{
+  0%{
+    top: 0;
+    right: 0;
+  }
+  100%{
+    transform: rotate(80deg);
+    top: 0;
+    right: 0;
+  }
+  }
+#flores{
+  margin-left: 200px;
+}
+#petalos{
+  width: 200px;
+  height: 100px;
+  animation-name: giro;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1000;
+  animation-direction:normal;
+  }
+  @keyframes giro{
+  0%{
+    top: 0;
+    right: 0;
+  }
+  100%{
+    transform: rotate(360deg);
+    top: 0;
+    right: 0;
+  }
+  }
+#flor{
+margin-left: 100px;
+margin-top: -305px;
+position: relative;
+}
+#flor2{
+margin-left: 600px;
+margin-top: -280px;
+}
+#flor3{
+margin-left: 1100px;
+margin-top: -280px;
+}
+
+#petalo1{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 0px 100px 0 100px;
+}
+#petalo2{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 0 100px 0 100px;
+  transform: rotate(45deg);
+  margin-left: 50px;
+  margin-top: -120px;
+}
+#petalo3{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 0 100px 0 100px;
+  transform: rotate(90deg);
+  margin-left: 100px;
+  margin-top: -80px;
+}
+#petalo4{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 0 100px 0 100px;
+  transform: rotate(135deg);
+  margin-left: 120px;
+  margin-top: -50px;
+}
+#petalo5{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 0 100px 0 100px;
+  transform: rotate(180deg);
+  margin-left: 100px;
+  margin-top: -50px;
+}
+#petalo6{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 0 100px 0 100px;
+  transform: rotate(225deg);
+  margin-left: 50px;
+  margin-top: -80px;
+}
+#petalo7{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 0 100px 0 100px;
+  transform: rotate(270deg);
+  margin-left: 0px;
+  margin-top: -120px;
+}
+#petalo8{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 0 100px 0 100px;
+  transform: rotate(315deg);
+  margin-left: -20px;
+  margin-top: -150px;
+}
+#palo{
+  width: 40px;
+  height: 200px;
+  background-color: green;
+  margin-left: 80px;
+  margin-top: -20px;
+}
+#punto{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px 100px 100px 100px;
+  background-color: black;
+  margin-left: 75px;
+  margin-top: -70px;
+  z-index: 1;
+}
+
+#manueh{
+  height: 100px;
+  margin-left: 500px;
+  margin-top: -750px;
+}
+#cristal{
+  background-color: rgb(44, 165, 198);
+  width: 300px;
+  height:150px;
+  border-radius: 150px 150px 0 0;
+}
+#platillo{
+background-color: rgb(199, 195, 189);
+width: 500px;
+height:100px;
+border-radius: 300px 300px 300px 300px;
+margin-left: -100px;
+}
+#rayito{
+  width: 150px;
+  height: 0px;
+  margin-left: 10px;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 530px solid rgba(37, 233, 20, 0.34);
+  animation-name: PILAR;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1000;
+  animation-direction:normal;
+  }
+  @keyframes PILAR{
+  0%{
+    top: 0;
+    right: 0;
+  }
+  0%{
+    top: 0;
+    right: 0;
+  }
+  50%{
+    top: 0;
+    right: 0;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 530px solid rgba(37, 233, 20, 0.34);
+  }
+  100%{
+    top: 0;
+    right: 0;
+  }
+  }

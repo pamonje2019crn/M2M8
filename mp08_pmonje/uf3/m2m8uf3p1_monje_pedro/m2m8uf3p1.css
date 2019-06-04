@@ -1,0 +1,78 @@
+body{
+  background-color: lightgrey;
+  margin: 0;
+}
+#arriba{
+  height: 113px;
+  background-color: white;
+}
+#fotaca{
+  width: 10%;
+  margin-left: 50px;
+  margin-top: 20px;
+  float: left;
+}
+.si{
+float: right;
+margin-right: 1400px;
+margin-top: 60px;
+}
+#todo{
+margin-left: 300px;
+
+width: 1500px;
+}
+.cajas{
+background-color: white;
+width: 300px;
+height: 800px;
+margin-top: 10px;
+margin-left: 10px;
+display: inline-block;
+}
+.cajas img{
+  width: 100%;
+}
+.peke img{
+  width: 20%;
+  border-radius: 60px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.peke p{
+  float: right;
+  margin-right: 90px;
+  margin-top: 20px;
+  width: 120px;
+  height: 50px;
+  color: lightgrey;
+}
+.nombre{
+  font-size: 20px;
+  height: 50px;
+  clear: both;
+  margin-left: 10px;
+
+}
+.tex{
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 280px;
+  height: 150px;
+
+  font-size: 15px;
+}
+.mony{
+  width: 50px;
+  margin-left: 230px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.pa{
+  border-top: 123px black;
+  text-align: center;
+}
+.pa p{
+  color: lightgrey;
+}
