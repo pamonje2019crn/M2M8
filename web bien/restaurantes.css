@@ -1,4 +1,12 @@
 @media screen and (min-width:769px) {
+  @font-face {
+  font-family: "Anja_Eliane";
+  src: url("fuentes/Anja_Eliane.ttf");
+}
+@font-face {
+font-family: "Antipasto-Pro-Regular-trial";
+src: url("fuentes/Antipasto-Pro-Regular-trial.ttf");
+}
 body{
   margin: 0 ;
   font-size: 18px;
@@ -6,6 +14,7 @@ body{
 }
 p{
   text-align: left;
+  font-family: Antipasto-Pro-Regular-trial;
 }
 #arriba{
   width: 100%;
@@ -53,6 +62,7 @@ p{
   text-align: center;
   padding: 30px 0 0 0;
   font-size: 2em;
+  font-family: Anja_Eliane;
 }
 #textos{
   width: 100%;
@@ -67,8 +77,14 @@ p{
   width: 30%;
   text-align: center;
   padding: 5px 0 0 0;
+  font-family: Anja_Eliane;
   margin: 10px 35% 0 35%;
   font-size: 1.6em;
+}
+.text3{
+
+  font-family: Anja_Eliane;
+
 }
 #fondo{
   width: 100%;

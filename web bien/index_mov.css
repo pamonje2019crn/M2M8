@@ -1,6 +1,10 @@
 @media screen and (max-width:480px) {
+  @font-face {
+  font-family: "Anja_Eliane";
+  src: url("fuentes/Anja_Eliane.ttf");
+}
 body{
-  
+
   margin: 0;
   width: 100%;
 }
