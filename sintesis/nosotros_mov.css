@@ -1,0 +1,247 @@
+@media screen and (max-width:480px) {
+  @font-face {
+  font-family: "Anja_Eliane";
+  src: url("fuentes/Anja_Eliane.ttf");
+}
+@font-face {
+font-family: "Antipasto-Pro-Regular-trial";
+src: url("fuentes/Antipasto-Pro-Regular-trial.ttf");
+}
+
+p{
+  font-family: Antipasto-Pro-Regular-trial;
+}
+  body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    width: 100%;
+  }
+  #arriba{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    clear: both;
+  z-index: 10;
+  }
+  #idioma{
+    width: 50%;
+    height: 50px;
+    margin: 0 0 0 50%;
+  text-align: center;
+
+  }
+  .ca{
+    width: 55px;
+    display: inline;
+    text-align: center;
+    background-color: white;
+    font-size: 0.8rem;
+    z-index: 10;
+  }
+
+  #secciones{
+    display: none;
+  }
+  #logo{
+    width: 16%;
+    margin: 1% 0 0 1%;
+    float: left;
+    position: relative;
+    z-index: 10;
+  }
+  #menu{
+    width:60%;
+    float: left;
+    text-align: right;
+    position: relative;
+    z-index: 4;
+  }
+  #medio{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: 6;
+  }
+  #texto{
+    background-color: rgba(255, 255, 255, 0.76);
+    height: 40px;
+    width: 60%;
+    margin: 5% 20% 0 20%;
+    text-align: center;
+    padding: 7px 0 0 0;
+    font-family: Anja_Eliane;
+    font-size: 0.8em;
+  }
+  #textos{
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    margin-top: 20%;
+  }
+  #texto1{
+    background-color: rgba(255, 255, 255, 0.76);
+    height: 40px;
+    font-family: Anja_Eliane;
+    width: 70%;
+    text-align: center;
+    padding: 7px 0 0 0;
+    margin: 10px 15% 0 15%;
+    font-size: 0.8em;
+  }
+  #fondo{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+
+  #blog{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    margin-top: -10px;
+    z-index: 15;
+
+  }
+
+  #nosotros{
+    width: 90%;
+    height: 100px;
+    padding-top: 50px;
+    margin: 0 5% 0 5%;
+    position: relative;
+    z-index: 6;
+  }
+  #madame{
+      height: 550px;
+      padding: 20px 0 0 0;
+      clear: both;
+      width: 100%;
+
+      border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
+  }
+  #nunoya{
+    clear: both;
+    width: 100%;
+
+    height: 690px;
+    padding: 20px 0 0 0;
+    border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
+  }
+  #norma{
+    clear: both;
+    width: 100%;
+
+    height: 550px;
+    padding: 20px 0 0 0;
+    border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
+  }
+  #otonashi{
+    clear: both;
+    width: 100%;
+
+    height: 550px;
+    padding: 20px 0 0 0;
+    border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
+  }
+
+  #haiku{
+    clear: both;
+    width: 100%;
+    background-color: white;
+    height: 550px;
+    padding: 20px 0 0 0;
+    border-bottom: 5px rgba(209, 209, 202, 0.89) solid;
+  }
+
+  .grande{
+  width: 45%;
+  height: 40%;
+  margin: 0 2% 5% 2%;
+  float: left;
+  }
+
+  .pequeña{
+    padding: 20px 0 0 0;
+    width: 31%;
+    height: 25%;
+    margin: 0 1% 5% 1%;
+    float: left;
+  }
+  #abajo{
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  position:absolute;
+  margin-top: 1050px;
+  }
+  #flecha{
+    width: 15%;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 1px;
+
+    margin: -5% 43% 0 42%;
+    style-type: none;
+  }
+  #redes{
+    width: 100%;
+    margin: 2% 0% 0 0%;
+  }
+  .img{
+    width: 16%;
+    margin: 0 4% 0 4%;
+  }
+  .tiendas{
+  width: 100%;
+  height: 30px;
+  display: none;
+  list-style-type: none;
+  padding: 10px 0 0 0;
+  }
+
+
+
+  a{
+    text-decoration: none;
+  }
+
+  #activar{
+
+    position: absolute;
+    margin:9% 0 0 37%;
+    width: 60%;
+  }
+  #nivel1-1{
+    background-color: red;
+    width: 10%;
+
+  }
+  #nivel2-1{
+  width: 10%;
+  height: 100px;
+  }
+  #menu{
+    width: 85%;
+    margin: 0 0% 0 0;
+    z-index: 15;
+    font-size: 0.8rem;
+
+  }
+  #menu * { list-style:none; }
+  #menu li{ line-height:180%; }
+  #menu li a{color:#222; }
+  #menu li a:before{ content:"\025b8"; color:#ddd; display: none;}
+  #menu input[name="list"] {
+    position: absolute;
+    left: -1000em;
+    }
+  #menu label:before{ content:"\025b8"; display: none;}
+  #menu input:checked ~ label:before{ content:"\025be";}
+  #menu .interior{display: none;}
+  #menu input:checked ~ ul{display:block;}
+}
+}
